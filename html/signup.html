@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Iqbal Hossain Supon</h1>
+    <h2>Crate a new Account</h2>
+    <!-- Create a new account form -->
+    <form autocomplete="on">
+        <div>
+            <!-- Form text inputs -->
+            <label for="fname"> First Name: </label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your First Name" required> <br>
+
+            <label for="mname"> Middle Name (Optional): </label>
+            <input type="text" id="mname" name="mname" placeholder="Enter your Middle Name"> <br>
+
+            <label for="lname"> Last Name: </label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your Last Name" required> <br> <br>
+            </div>
+
+        <div>
+            <!-- Form email input -->
+            <label for="mail"> E-Mail: </label>
+            <input type="email" id="mail" name="mail" placeholder="Enter your Mail here" required> <br>
+
+            <!-- Form Password input -->
+            <label for="npass"> Password: </label>
+            <input type="password" id="npass" name="npass" placeholder="Enter a new Password" required> <br>
+
+            <label for="rpass"> Retype Password: </label>
+            <input type="password" id="rpass" name="rpass" placeholder="Retype given Password" required> <br>
+
+            <!-- Form telephone input -->
+            <label for="phone"> Phone no: </label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your Phone no (with country code)" required> <br>
+        </div> <br>
+
+        <div>
+            <!-- Form radio input -->
+            <label for="gender"> Gender </label>
+            <input type="radio" id="gender" name="gender" value="Male" required checked> Male 
+            <input type="radio" id="gender" name="gender" value="Female" required> Female
+            <input type="radio" id="gender" name="gender" value="Other" required> Other <br>
+
+            <!-- Form date input -->
+            <label for="dob"> Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required> <br>
+
+            <!-- Form checkbox input -->
+            <label for="religion"> Religion </label>
+            <input type="checkbox" id="religion" name="religion" value="Islam" checked> Islam
+            <input type="checkbox" id="religion" name="religion" value="Hindu"> Hindu
+            <input type="checkbox" id="religion" name="religion" value="Catholic"> Catholic
+            <input type="checkbox" id="religion" name="religion" value="Buddhism"> Buddhism
+            <input type="checkbox" id="religion" name="religion" value="Other"> Other <br>
+
+            <!-- Form url input -->
+            <label for="ass"> Associate Website: </label>
+            <input type="url" id="ass" name="ass" placeholder="Enter website address"> <br>
+
+            <!-- Form file input -->
+            <label for="photos"> Upload Profile Picture: </label>
+            <input type="file" id="photos" name="photos"> <br>
+        </div>
+
+        <!-- Dropdown Menu -->
+        <div>
+            <label for="department"> Department: </label>
+            <select>
+                <option value="CSE"> Computer Science and Engineering </option>
+                <option value="CST"> Computer Science Technology </option>
+                <option value="LLB"> LLB </option>
+                <option value="EEE"> Electrical Electronics Engineering </option>
+                <option value="IT" selected> Information Technology </option> 
+                <option value="BBA"> Bachelor of Business Adminastration </option>
+                <option value="ITE"> International Trade and Economics </option>
+                <option value="IR"> International Relationship </option>
+                <option value="Accounting" disabled> Accounting </option>
+                <option value="Finance" disabled> Finance </option>
+                <option value="HRM" disabled> Human Resource and Management </option>
+                <option value="Psychology"> Psychology </option>
+                <option value="Philosophy" readonly> Philosophy </option>
+            </select>
+        </div> <br>
+
+        <div>
+            <label for="sq"> Security Questions: </label>
+            <select>
+                <option value="sq1">What was your favorite school teacher’s name?</option>
+                <option value="sq2" selected>What’s your favorite movie?</option>
+                <option value="sq3">What was your first car?</option>
+                <option value="sq4">What is your astrological sign?</option>
+                <option value="sq5">What city were you born in?</option>
+                <option value="sq6">What is your oldest sibling’s middle name?</option>
+                <option value="sq7">What was the first concert you attended?</option>
+                <option value=sq8">What was the make and model of your first car?</option>
+                <option value="sq9">In what city or town did your parents meet?</option>
+            </select>
+        </div> <br>
+
+        <div>
+            <label for="sqanswer"> Security Question's Answer:</label>
+            <input type="text" id="sqanswer" name="sqanswer" required>
+        </div> <br>
+
+        <div>
+            <!-- Text Area -->
+            <label for="message" > Message </label><br>
+            <textarea cols="50" rows="10"> </textarea>
+        </div>
+
+        <!-- Form button input -->
+        <div>
+            <input type="submit" value="Sign Up">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+
+    <!-- Sign in and Restore account page links -->
+    <p>
+        <a href="../index.html" target="blank"><h3>Sign In</h3></a>
+        <a href="restore.html" target="blank"><h3>Restore Account</h3></a>
+    </p>
+
+    <!-- Form search input -->
+    <form>
+        <label for="search"> Search: </label>
+        <input type="search" id="search" name="search" placeholder="Search Box">
+    </form>
+</body>
+</html>

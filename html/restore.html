@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restore Password</title>
+</head>
+<body>
+    <h1> Iqbal Hossain Supon </h1>
+    <p>
+        <h2> Restore Account </h2>
+        <h4> If you forget your password, fill up this necessary information and follow the procedure.</h4>
+
+        <!-- Forget Password form -->
+        <form autocomplete="on">
+            <!-- Form email input -->
+            <label for="mail"> E-Mail: </label>
+            <input type="email" id="mail" name="mail" placeholder="Enter your mail" required> <br>
+
+            <!-- Form tel input -->
+            <label for="phone"> Phone Number </label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone no"> <br>
+
+            <!-- Form number input -->
+            <Label for="sec"> Security Captcha </Label>
+            <input type="number" id="sec" name="sec" placeholder="Enter numbers shown in image" required> <br>
+
+            <!-- Form datetime-local input -->
+            <label for="loc"> Local time </label>
+            <input type="datetime-local" id="loc" name="loc"> <br>
+
+            <div>
+                <label for="sq"> Security Questions: </label>
+                <select>
+                    <option value="sq1">What was your favorite school teacher’s name?</option>
+                    <option value="sq2" selected>What’s your favorite movie?</option>
+                    <option value="sq3">What was your first car?</option>
+                    <option value="sq4">What is your astrological sign?</option>
+                    <option value="sq5">What city were you born in?</option>
+                    <option value="sq6">What is your oldest sibling’s middle name?</option>
+                    <option value="sq7">What was the first concert you attended?</option>
+                    <option value=sq8">What was the make and model of your first car?</option>
+                    <option value="sq9">In what city or town did your parents meet?</option>
+                </select>
+            </div> <br>
+    
+            <div>
+                <label for="sqanswer"> Security Question's Answer:</label>
+                <input type="text" id="sqanswer" name="sqanswer" required>
+            </div> <br>
+
+            <!-- Form url input -->
+            <label for="ass"> Associate Website: </label>
+            <input type="url" id="ass" name="ass" placeholder="Enter website address"> <br>
+
+            <!-- Form button input -->
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </p>
+
+    <!-- Form button input -->
+    <p>
+        <a href="../index.html" target="blank"><h3>Sign In</h3></a>
+        <a href="signup.html" target="blank"><h3>Sign Up</h3></a>
+    </p>
+
+    <!-- Form Search input -->
+    <form>
+        <label for="search"> Search: </label>
+        <input type="search" id="search" name="search" placeholder="Search Box">
+    </form>
+</body>
+</html>
